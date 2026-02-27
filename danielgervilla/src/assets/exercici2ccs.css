@@ -1,0 +1,12 @@
+.cercle{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+.exercici2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
