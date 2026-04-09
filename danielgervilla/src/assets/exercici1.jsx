@@ -12,6 +12,7 @@ function Exercici1() {
     //return amb el html
   return (
     <div>
+        <h1>Exercici 1</h1>
         <div className="numero">
             {contador}
         </div>

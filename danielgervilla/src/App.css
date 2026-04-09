@@ -1,6 +1,28 @@
-#root {
-  max-width: 1280px;
+﻿#root{
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+.medio {
+    position: fixed;
+    padding: 35px;
+    gap: 10px;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #242424;
+}
+.medio button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  background-color: #555;
+
+}
+.medio button:hover {
+  background-color: #555;
 }
