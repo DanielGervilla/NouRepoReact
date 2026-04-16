@@ -8,7 +8,8 @@ function Menu({canviarTasca}) {
         "Carrussel", 
         "Tasca3",
         "Tasca4_1",
-        "Tasca4_2",];
+        "Tasca4_2",
+        "Tasca5",];
     function onClickMenuItem(item) {
         canviarTasca(item)
     }

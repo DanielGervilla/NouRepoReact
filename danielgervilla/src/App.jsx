@@ -10,6 +10,7 @@ import Tasca3 from "./assets/tasca3/tasca3.jsx";
 import Menu from "./menu.jsx";
 import Tasca4_1 from "./assets/tasca4/exercici1.jsx";
 import Tasca4_2 from "./assets/tasca4/exercici2.jsx";
+import Tasca5 from "./assets/tasca5/tasca5.jsx";
 
 function App() {
   //ESTATS
@@ -36,7 +37,9 @@ function App() {
             case "Tasca4_2":
                 return <Tasca4_2 />;
             default:
-                return null;
+                case "Tasca5":
+                    return <Tasca5 />;
+            return null;
         }
     }
     //return amb el html
